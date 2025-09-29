@@ -1,0 +1,16 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    font-family: "Playwrite US Trad", cursive;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    
+}
