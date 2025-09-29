@@ -1,16 +1,61 @@
-body {
-    background-color: pink;
+:root {
+    --branding-color:#f07381;
+    --default-font-family: "Playfair Display", serif;
+    --heading-font-family: "Playwrite US Trad", cursive;
+
 }
 
 h1 {
     color: white;
-    font-family: "Playwrite US Trad", cursive;
+    font-family: var(--heading-font-family);
     font-weight: bold;
+    font-size: 55px;
+}
+
+h4 {
+    color: white;
+    font-family: var(--default-font-family);
+    font-weight: normal;
 }
 
 p {
     color: white;
-    font-family: "Playfair Display", serif;
+    font-family: var(--default-font-family);
     font-weight: normal;
+    font-size: small;
     
+}
+
+.hero {
+    background: lightpink ;
+    text-align: center;
+    padding: 160px 20px;
+
+}
+
+.hero h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 3;
+
+}
+
+.hero h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+
+}
+
+.contact-btn {
+    background-color: var(--branding-color) ;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 15px 30px
+
 }
