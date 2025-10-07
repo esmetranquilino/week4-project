@@ -87,6 +87,42 @@ p {
 
 }
 
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin:0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#f07381;
+    font-weight: bold;
+    transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+    color: lightcyan;
+}
+
+nav li.active a {
+    color:lightcyan;
+}
+
+
 @media (max-width: 960px) {
     h1 {
         font-size: 60px;
