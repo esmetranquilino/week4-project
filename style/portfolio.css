@@ -46,6 +46,12 @@ p {
     
 }
 
+.box {
+    background: #FDDDE6 ;
+    padding: 40px 15px;
+    text-align: center;
+}
+
 .btn {
     font-size: 18px;
 }
